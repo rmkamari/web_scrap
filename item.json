@@ -1,0 +1,33 @@
+{
+  "base_url": "https://www.farsnews.com/",
+  "obj1": {
+    "field_name": "title",
+    "xpath": "/html/body/div[2]/main/div[1]/div/div[1]/div[2]/section[1]/div/ul",
+    "type": "text"
+  },
+  "obj2": {
+    "field_name": "more_news",
+    "xpath": "/html/body/div[2]/main/div[1]/div/div[1]/div[2]/section[2]/ul/li[3]/a",
+    "type": "url"
+  },
+  "obj3": {
+    "field_name": "most_view",
+    "xpath": "//*[@id='chosen-news']/div[3]/div/ul",
+    "type": "text"
+  },
+  "obj4": {
+    "field_name": "pic",
+    "xpath": "/html/body/div[2]/main/div[1]/div/div[1]/div[1]/section[1]/div/a/img",
+    "type": "img"
+  },
+  "obj5": {
+    "field_name": "news_url",
+    "xpath": "/html/body/div[2]/main/div[1]/div/div[1]/div[1]/section[2]/ul/li[1]/div[2]/a/div",
+    "type": "url"
+  },
+  "obj6": {
+    "field_name": "news_txt",
+    "xpath": "/html/body/div[2]/main/div[1]/div/div[1]/div[1]/div[1]",
+    "type": "text"
+  }
+}
