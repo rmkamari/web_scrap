@@ -26,7 +26,7 @@ print(driver.title)
 time.sleep(5)
 print(driver.find_element(By.XPATH, '/html/body/div[2]/main/div[1]/div/div[1]/div[1]/div[1]').get_attribute('innerText'))
 
-# driver.close()
+driver.close()
 
 """
 ----------
