@@ -1,0 +1,33 @@
+{
+  "base_url": "https://www.mashreghnews.ir/",
+  "obj1": {
+    "field_name": "por bazdid",
+    "xpath": "//*[@id='box16']/div/ul",
+    "type": "text"
+  },
+  "obj2": {
+    "field_name": "top pic",
+    "xpath": "//*[@id='box83']/div/ul/li/figure/a/img",
+    "type": "img"
+  },
+  "obj3": {
+    "field_name": "varzeshi link",
+    "xpath": "//*[@id='menu']/div/div/div/div/ul/li[6]/a",
+    "type": "url"
+  },
+  "obj4": {
+    "field_name": "titr varzesh",
+    "xpath": "//*[@id='box99']/div/ul/li/div/h3/a",
+    "type": "url"
+  },
+  "obj5": {
+    "field_name": "top news varzeshi",
+    "xpath": "//*[@id='item']/div[4]",
+    "type": "text"
+  },
+  "obj6": {
+    "field_name": "comment varzeshi",
+    "xpath": "//*[@id='news-comment']/div",
+    "type": "text"
+  }
+}
